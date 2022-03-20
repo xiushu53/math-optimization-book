@@ -1,0 +1,9 @@
+version: '3'
+services:
+  app:
+    build: .
+    ports: ["8088:8088"]
+    container_name: app
+    volumes:
+      - ./app:/usr/src/app
+    command: python ./index.py
