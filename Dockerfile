@@ -9,3 +9,7 @@ COPY ./app/requirements.txt ./
 RUN apt-get update && apt-get install -y curl
 RUN pip install --upgrade pip
 RUN pip install -r requirements.txt
+# ENV FLASK_APP=index.py
+# ENV FLASK_RUN_HOST=0.0.0.0
+# EXPOSE 8088
+# CMD ["flask", "run"]
