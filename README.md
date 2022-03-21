@@ -9,3 +9,10 @@
 
 ## Docker
 - docker-compose up --build
+
+## Heroku
+- cd app
+- heroku login
+- git add .
+- git commit -m " "
+- git push heroku main
