@@ -6,4 +6,4 @@ services:
     container_name: app
     volumes:
       - ./app:/usr/src/app
-    command: python ./index.py
+    # command: python ./index.py
